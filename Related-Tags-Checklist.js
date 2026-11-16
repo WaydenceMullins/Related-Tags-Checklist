@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Related Tags Checklist
 // @namespace    http://tampermonkey.net/
-// @version      0.1.0
+// @version      0.1.1
 // @description  Adds customizable checklist to quick tags
 // @author       Waydence
 // @match        https://e621.net/posts/*
@@ -387,7 +387,7 @@ GM_addStyle(`
   outline: 1px solid #fff2; outline-offset: -1px;
   .sectConfDialog {
   display: block; padding: 0 0 .1rem .1rem;
-  label {font-weight: 1}
+  label {display: block; font-weight: 1}
   }
  }
  .related-title textarea {min-width: 100%; color: var(--color-text); padding: 0; line-height: 1.25em; font-weight: 700}
